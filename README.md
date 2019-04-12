@@ -14,3 +14,13 @@ real-valued vectors (features derived from a query-document pair). The target va
 labels) that take one of three values 0, 1, 2: the larger the relevance label, the better is the match between
 query and document. Although the training target values are discrete we use linear regression to obtain real
 values which is more useful for ranking (avoids collision into only three possible values).
+
+### Implementation
+• Implemented a system to rank documents for a query using linear regression model with *Gaussian radial basis functions*.
+• Tuned the hyper-parameters and weights using Stochastic Gradient Descent method on Microsoft LETOR (Learning TO Rank) dataset
+
+### Software Used
+Python
+
+### Results
+Achieved Root Mean Square Error of 0.58

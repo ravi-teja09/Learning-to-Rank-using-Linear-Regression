@@ -16,8 +16,8 @@ query and document. Although the training target values are discrete we use line
 values which is more useful for ranking (avoids collision into only three possible values).
 
 ### Implementation
-• Implemented a system to rank documents for a query using linear regression model with *Gaussian radial basis functions*.
-• Tuned the hyper-parameters and weights using Stochastic Gradient Descent method on Microsoft LETOR (Learning TO Rank) dataset
+* Implemented a system to rank documents for a query using linear regression model with *Gaussian radial basis functions*.
+* Tuned the hyper-parameters and weights using Stochastic Gradient Descent method on Microsoft LETOR (Learning TO Rank) dataset
 
 ### Software Used
 Python
